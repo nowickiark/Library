@@ -11,8 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class BookStoreApplication implements CommandLineRunner {
-
-	private static Logger LOG = LoggerFactory.getLogger(BookStoreApplication.class);
+	
 
 	@Autowired
 	private OrderService orderService;
